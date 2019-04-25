@@ -1,0 +1,22 @@
+{
+  "name": "authpoc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "tunnel": "ngrok http 8080"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.6.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dialogflow": "^0.8.2",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "~4.16.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "ngrok": "^3.1.1"
+  }
+}
